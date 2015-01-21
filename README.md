@@ -87,6 +87,7 @@ We are simply setting our users equal to the result of our service's getUsers fu
 What we need to do is implement a promise! A promise will keep Angular from jumping to conclusions. Instead of defning $scope.users ASAP, Angular will wait until the data comes through to define it. 
 
 - Replace the old getUsers method with a new one which has a promise!
+
 ``` javascript
 var app = angular.module('userProfiles');
 
